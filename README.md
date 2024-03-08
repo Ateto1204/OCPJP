@@ -6,3 +6,5 @@
 
 #### OOP
 - Singleton Design Pattern
+- Polymorphism
+- Enumeration
