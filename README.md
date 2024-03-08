@@ -1,3 +1,8 @@
 # Java Training
-- OCPJP
+
 - Spring Boot
+
+### OCPJP
+
+#### OOP
+- Singleton Design Pattern
