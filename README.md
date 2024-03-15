@@ -9,3 +9,4 @@
 - Singleton Design Pattern
 - Polymorphism
 - Enumeration
+- Anonymous Nested Class
