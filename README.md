@@ -3,13 +3,13 @@
 - Spring Boot
 - Problem Solving
 
-### OCPJP
+## OCPJP
 
-#### OOP
+### OOP
 - Singleton Design Pattern
 - Polymorphism
 - Enumeration
 - Nested Class
 
-#### Collections
+### Collections
 - Comparator
