@@ -1,7 +1,7 @@
 # Java Training
 
 - Spring Boot
-- Porblem Solving
+- Problem Solving
 
 ### OCPJP
 
