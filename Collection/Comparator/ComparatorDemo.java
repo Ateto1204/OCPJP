@@ -50,7 +50,7 @@ class ScoreSorter implements Comparator<Student> {
     }
 }
 
-public class DemoComparator {
+public class ComparatorDemo {
 
     private static void showList(List<Student> studentList) {
         for(int i = 0; i < studentList.size(); i++) {

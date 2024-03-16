@@ -10,4 +10,6 @@
 - Polymorphism
 - Enumeration
 - Nested Class
-- Generic, Collections and Comparator
+
+#### Collections
+- Comparator
