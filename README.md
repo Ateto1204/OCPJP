@@ -14,7 +14,7 @@
 ### Collections
 - Generics
 - List, ArrayList, LinkedList
-- Deque
+- Queue, Deque, ArrayQueue
 - Set, SortedSet, HashSet, TreeSet
 - Map, SortedMap, HashMap, TreeMap
 - Comparable
