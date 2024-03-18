@@ -15,7 +15,7 @@ class SingletonClass {
     }
 }
 
-public class Main {
+public class SingletonDemo {
     public static void main(String[] args) {
         SingletonClass ref1 = SingletonClass.getInstance();
         SingletonClass ref2 = SingletonClass.getInstance();
