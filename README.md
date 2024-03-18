@@ -12,4 +12,10 @@
 - Nested Class
 
 ### Collections
+- Generics
+- List, ArrayList, LinkedList
+- Deque
+- Set, SortedSet, HashSet, TreeSet
+- Map, SortedMap, HashMap, TreeMap
+- Comparable
 - Comparator
