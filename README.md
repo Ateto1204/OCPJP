@@ -31,7 +31,9 @@
     - SortedMap
     - HashMap
     - TreeMap
-- Comparable, Comparator
+- Compare
+    - Comparable
+    - Comparator
 
 ### Exception
 - Exceptions
