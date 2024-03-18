@@ -17,5 +17,8 @@
 - Queue, Deque, ArrayQueue
 - Set, SortedSet, HashSet, TreeSet
 - Map, SortedMap, HashMap, TreeMap
-- Comparable
-- Comparator
+- Comparable, Comparator
+
+### Exception
+- Exceptions
+- Assertions
