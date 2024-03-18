@@ -6,17 +6,31 @@
 ## OCPJP
 
 ### OOP
-- Singleton Design Pattern
 - Polymorphism
 - Enumeration
 - Nested Class
 
+#### Design Pattern
+- Singleton
+- DAO
+- Factory
+
 ### Collections
 - Generics
-- List, ArrayList, LinkedList
-- Queue, Deque, ArrayQueue
-- Set, SortedSet, HashSet, TreeSet
-- Map, SortedMap, HashMap, TreeMap
+- List
+    - ArrayList
+    - LinkedList
+- Queue
+    - Deque
+    - ArrayQueue
+- Set
+    - SortedSet
+    - HashSet
+    - TreeSet
+- Map
+    - SortedMap
+    - HashMap
+    - TreeMap
 - Comparable, Comparator
 
 ### Exception
