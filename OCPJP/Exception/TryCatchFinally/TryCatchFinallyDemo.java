@@ -13,6 +13,7 @@ public class TryCatchFinallyDemo {
             in = new FileInputStream("lostFile.txt");
             System.out.println("File is opened");
             int data = in.read();
+            System.out.println("data: " + data);
             in.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
