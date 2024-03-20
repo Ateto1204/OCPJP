@@ -1,73 +1,51 @@
 package build;
 
-import java.time.LocalDate;
-
-interface EmployeeDao {
-    void add();
-    void update();
+interface Product {
+    void use();
 }
 
-class Employee implements EmployeeDao {
-    private String firstName;
-    private String lastName;
-    private int id;
-    private float salary;
-    private LocalDate birthDate;
-
-    public Employee(String firstName, String lastName, int id, float salary, LocalDate birthDate) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.id = id;
-        this.salary = salary;
-        this.birthDate = birthDate;
-    }
-
-    public int getId() {
-        return this.id;
-    }
-
-    public String getFirstName() {
-        return this.firstName;
-    }
-
-    public String getLastName() {
-        return this.lastName;
-    }
-
-    public float getSalary() {
-        return this.salary;
-    }
-
-    public LocalDate getBirthDate() {
-        return this.birthDate;
-    }
-
+class ConcreteProductA implements Product {
     @Override
-    public void add() {
-
+    public void use() {
+        System.out.println("Using Product A");
     }
-    @Override
-    public void update() {
+}
 
+class ConcreteProductB implements Product {
+    @Override
+    public void use() {
+        System.out.println("Using Product B");
+    }
+}
+
+class Factory {
+    public static Product createProduct(String type) {
+        if(type.equals("A")) {
+            return new ConcreteProductA();
+        } else if(type.equals("B")) {
+            return new ConcreteProductB();
+        } else {
+            throw new IllegalArgumentException("Unknown product type");
+        }
     }
 }
 
 public class FactoryDemo {
-
-    public static Employee createEmployee(String firstName, String lastName, int id, float salary, LocalDate birthDate) {
-        return new Employee(firstName, lastName, id, salary, birthDate);
-    }
-
     public static void main(String[] args) {
-        String firstName = "Ateto";
-        String lastName = "Su";
-        int id = 133;
-        float salary = 100.6f;
-        LocalDate birthDate = LocalDate.of(2004, 12, 2);
+        try {
+            Product productA = Factory.createProduct("A");
+            productA.use();
 
-        EmployeeDao dao = FactoryDemo.createEmployee(firstName, lastName, id, salary, birthDate);
+            Product productB = Factory.createProduct("B");
+            productB.use();
 
-        Employee employee = (Employee)dao;
-        System.out.println(employee.getFirstName());
+            Product productC = Factory.createProduct("C");
+            productC.use();
+
+        } catch (IllegalArgumentException exception) {
+            System.out.println(exception.getMessage());
+        } catch (Exception exception) {
+            exception.printStackTrace();
+        }
     }
 }
