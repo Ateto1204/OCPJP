@@ -1,3 +1,11 @@
+/*
+ * 
+ * Author: Ateto
+ * 
+ * Description: Demo to Factory design pattern
+ * 
+ */
+
 package build;
 
 interface Product {

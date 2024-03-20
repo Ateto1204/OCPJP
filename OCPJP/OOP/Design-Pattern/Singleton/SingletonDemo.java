@@ -1,3 +1,11 @@
+/*
+ * 
+ * Author: Ateto
+ * 
+ * Description: Demo to Singleton design pattern
+ * 
+ */
+
 package build;
 
 class SingletonClass {

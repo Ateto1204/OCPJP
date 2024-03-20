@@ -1,3 +1,11 @@
+/*
+ * 
+ * Author: Ateto
+ * 
+ * Description: Demo to DAO design pattern
+ * 
+ */
+
 package build;
 
 class User {
