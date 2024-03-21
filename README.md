@@ -5,12 +5,16 @@
 
 ## OCPJP
 
+#### OCAJP
+- Lambda fundamentals
+- DateTime API
+
 ### OOP
 - Polymorphism
 - Enumeration
 - Nested Class
 
-#### Design Pattern
+### Design Pattern
 - Singleton
 - DAO
 - Factory
