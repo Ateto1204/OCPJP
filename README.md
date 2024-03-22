@@ -5,7 +5,7 @@
 
 ## OCPJP
 
-#### OCAJP
+### OCAJP
 - Lambda fundamentals
 - DateTime API
 
