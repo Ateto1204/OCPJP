@@ -16,19 +16,14 @@
 
 class Solution {
     public ListNode reverseList(ListNode head) {
-        List<Integer> list = new ArrayList();
-        ListNode dummy = head;
-        while(dummy != null) {
-            list.add(dummy.val);
-            dummy = dummy.next;
+        ListNode current = head;
+        ListNode prev = null;
+        while(current != null) {
+            ListNode nxt = current.next;
+            current.next = prev;
+            prev = current;
+            current = nxt;
         }
-        int n = list.size();
-        if(n <= 1) return head;
-        dummy = head;
-        for(int i = n-1; i >= 0; i--) {
-            dummy.val = list.get(i);
-            dummy = dummy.next;
-        }
-        return head;
+        return prev;
     }
 }
