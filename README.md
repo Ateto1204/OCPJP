@@ -1,6 +1,6 @@
 # Java Training
 
-This is the repo including: 
+The repository including: 
 - Training for SpringBoot framework
 - Problem Solving on LeetCode
 - Oracle Certificate of Java Programmer (OCJP)
