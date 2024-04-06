@@ -1,4 +1,4 @@
-# Java Training
+# OCPJP
 
 The repository including: 
 - 1122 NTOU Java Programming Assignment
