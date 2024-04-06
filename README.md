@@ -1,6 +1,7 @@
 # Java Training
 
 The repository including: 
+- 1122 NTOU Java Programming Assignment
 - Training for SpringBoot framework
 - Problem Solving on LeetCode
 - Oracle Certificate of Java Programmer (OCJP)
